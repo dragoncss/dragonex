@@ -2047,8 +2047,8 @@ ul, ol, dd {
   text-align: right;
 }
 
-/* line 59, ../sass/exchange/_box.scss */
-.box--history {
+/* line 60, ../sass/exchange/_box.scss */
+.box--history .box__body {
   text-align: center;
 }
 
