@@ -1,0 +1,17 @@
+.logo {
+    display:block;
+    color:#eee;
+    font-size:26px;
+    font-weight:700;
+    line-height:1;
+    margin-bottom:$base-spacing;
+
+    &:hover {
+        color:#fff;
+    }
+
+    @include media-query(lap) {
+        line-height:52px;
+        margin-bottom:0;
+    }
+}

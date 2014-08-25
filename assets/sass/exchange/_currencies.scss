@@ -1,0 +1,14 @@
+$color: lighten(#222, 25%);
+
+.currencies {
+    margin-bottom:$half-spacing;
+}
+
+.currencies__item {
+    background-color:$color;
+    color:#fff;
+    display:block;
+    line-height:1;
+    margin-bottom:$half-spacing;
+    padding:($half-spacing);
+}

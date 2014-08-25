@@ -1,0 +1,16 @@
+.chat {
+    height:160px;
+    overflow-y:auto;
+
+    @include media-query(lap) {
+        height:238px;
+    }
+
+    @include media-query(desk) {
+        height:238px;
+    }
+}
+
+.chat__msg {
+    margin-bottom:($half-spacing / 2);
+}

@@ -1,0 +1,26 @@
+.btn {
+    border-radius:4px;
+    color:#fff;
+    display:inline-block;
+    padding:($half-spacing / 2) $half-spacing;
+}
+
+.btn--positive {
+    $color:#51a351;
+
+    background-color:$color;
+
+    &:hover {
+        background-color:darken($color, 5%);
+    }
+}
+
+.btn--negative {
+    $color:#bd362f;
+
+    background-color:$color;
+
+    &:hover {
+        background-color:darken($color, 5%);
+    }
+}

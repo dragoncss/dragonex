@@ -1,0 +1,17 @@
+.page {
+}
+
+.page__head {
+    background-color:lighten(#222, 35%);
+    color:#fff;
+    padding:$half-spacing 0;
+}
+
+.page__title {
+    font-weight:400;
+    margin-bottom:0;
+}
+
+.page__body {
+    padding:($half-spacing * 3) 0;
+}

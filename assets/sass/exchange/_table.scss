@@ -1,0 +1,43 @@
+/*
+* _table.scss
+**/
+
+$color: lighten(gray, 30%);
+
+.table {
+    background-color:#FFF;
+    display:table;
+    margin-bottom:0;
+    width:100%;
+
+    th, td {
+        border:1px solid $color;
+        display:table-cell;
+        vertical-align:middle;
+        padding:($half-spacing - 3) ($half-spacing - 2);
+    }
+}
+
+.table--bid-ask {
+    th {
+        text-align:left;
+    }
+
+    td {
+        text-align:right;
+
+        > input {
+            text-align:right;
+        }
+    }
+}
+
+.table--striped {
+    tr {
+        &:nth-child(odd) {
+            td {
+                background-color:lighten($color, 15%);
+            }
+        }
+    }
+}

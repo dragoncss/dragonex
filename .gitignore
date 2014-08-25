@@ -1,0 +1,9 @@
+*.swp
+*.swj
+*.swk
+*.swl
+*.swm
+*.swo
+*.swn
+.sass-cache/
+psd/

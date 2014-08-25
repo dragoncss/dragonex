@@ -1,0 +1,115 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?-g1akj0');
+	src:url('fonts/icomoon.eot?#iefix-g1akj0') format('embedded-opentype'),
+		url('fonts/icomoon.woff?-g1akj0') format('woff'),
+		url('fonts/icomoon.ttf?-g1akj0') format('truetype'),
+		url('fonts/icomoon.svg?-g1akj0#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+	content: "\f015";
+}
+.icon-lock:before {
+	content: "\f023";
+}
+.icon-qrcode:before {
+	content: "\f029";
+}
+.icon-pencil:before {
+	content: "\f040";
+}
+.icon-edit:before {
+	content: "\f044";
+}
+.icon-chevron-left:before {
+	content: "\f053";
+}
+.icon-chevron-right:before {
+	content: "\f054";
+}
+.icon-chevron-up:before {
+	content: "\f077";
+}
+.icon-chevron-down:before {
+	content: "\f078";
+}
+.icon-shopping-cart:before {
+	content: "\f07a";
+}
+.icon-bar-chart-o:before {
+	content: "\f080";
+}
+.icon-sign-out:before {
+	content: "\f08b";
+}
+.icon-sign-in:before {
+	content: "\f090";
+}
+.icon-navicon:before {
+	content: "\f0c9";
+}
+.icon-chevron-circle-left:before {
+	content: "\f137";
+}
+.icon-chevron-circle-right:before {
+	content: "\f138";
+}
+.icon-chevron-circle-up:before {
+	content: "\f139";
+}
+.icon-chevron-circle-down:before {
+	content: "\f13a";
+}
+.icon-check-square:before {
+	content: "\f14a";
+}
+.icon-pencil-square:before {
+	content: "\f14b";
+}
+.icon-bitcoin:before {
+	content: "\f15a";
+}
+.icon-user:before {
+	content: "\e601";
+}
+.icon-equalizer:before {
+	content: "\e602";
+}
+.icon-stats:before {
+	content: "\e600";
+}
+.icon-bars:before {
+	content: "\e603";
+}
+.icon-bars2:before {
+	content: "\e604";
+}
+.icon-googleplus:before {
+	content: "\e605";
+}
+.icon-facebook:before {
+	content: "\e606";
+}
+.icon-twitter:before {
+	content: "\e607";
+}
+.icon-github:before {
+	content: "\e608";
+}

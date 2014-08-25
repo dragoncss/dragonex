@@ -1,0 +1,35 @@
+.foot {
+    background-color:#222;
+    color:#eee;
+    font-size:13px;
+    padding:$base-spacing 0;
+}
+
+.foot__nav {
+    list-style:none;
+    line-height:1;
+    margin:0;
+
+    > li {
+        border-bottom:1px solid #bbb;
+
+        &:last-child {
+            border-bottom:none;
+        }
+
+        > a {
+            color:#eee;
+            display:block;
+            padding:$half-spacing;
+        }
+    }
+
+    @include media-query(desk) {
+        padding:0;
+
+        > li {
+            border-bottom:none;
+            float:left;
+        }
+    }
+}

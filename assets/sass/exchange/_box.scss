@@ -1,0 +1,61 @@
+.box {
+}
+
+.box__head {
+    background-color:lighten(#222, 25%);
+    color:#fff;
+    font-weight:700;
+    padding:$half-spacing 0 $half-spacing ($half-spacing + 2);
+}
+
+.box__body {
+}
+
+.box__body--slide-x {
+    overflow-x:auto;
+}
+
+.box--push-bottom {
+    margin-bottom:$base-spacing;
+}
+
+.box--chart {
+    .box__body {
+        border-width:0 1px 1px;
+        border-color:#ccc;
+        border-style:solid;
+        padding:($half-spacing / 2);
+    }
+}
+
+.box--chat {
+    .box__body {
+        border-width:0 1px 1px;
+        border-color:#ccc;
+        border-style:solid;
+        padding:($half-spacing / 2);
+    }
+
+    .box__foot {
+        background-color:#f3f3f3;
+        border-width:0 1px 1px;
+        border-color:#ccc;
+        border-style:solid;
+        padding:($half-spacing / 2);
+    }
+}
+
+.box--bid-ask {
+    .box__foot {
+        background-color:#f3f3f3;
+        border-width:0 1px 1px;
+        border-color:#ccc;
+        border-style:solid;
+        padding:($half-spacing / 2);
+        text-align:right;
+    }
+}
+
+.box--history {
+    text-align:center;
+}
